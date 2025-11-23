@@ -1,103 +1,90 @@
-Data Warehouse — End-to-End Data Engineering Project
+# 📊 Data Warehouse — End-to-End Data Engineering Project
 
-Welcome All ! 
-This project represents an end-to-end data engineering and analytics solution where I designed and built a modern data warehouse, developed ETL pipelines, and produced insights for business decision-making.
-It reflects real-world data engineering concepts and best practices.
+Welcome! 👋  
+This project showcases a complete data engineering and analytics workflow — from ingesting raw data to enabling powerful business insights.  
+It demonstrates real-world data warehousing concepts and industry best practices.
 
-🏗️ Architecture Overview — Medallion Approach
+---
 
-The solution is structured into three standard data layers:
+## 🏗️ Architecture — Medallion Framework
 
-Layer	Purpose
-Bronze	Stores raw data exactly as received from source CSV files
-Silver	Performs cleansing, standardization & integrity validation
-Gold	Stores analytics-ready data using star schema models
+The solution is structured using **Bronze, Silver & Gold layers**:
 
-A SQL Server database acts as the warehouse for optimized querying and reporting.
+| Layer  | Description |
+|--------|-------------|
+| **Bronze** | Raw data directly ingested from source CSV files |
+| **Silver** | Cleaned, standardized & validated data |
+| **Gold** | Analytics-ready data modeled using a star schema |
 
-📌 What This Project Covers
+📌 The warehouse is implemented using **SQL Server** for efficient querying and reporting.
 
-✔ Data Architecture — Logical & physical warehouse design
-✔ ETL Pipelines — Data ingestion & transformations using SQL
-✔ Data Modeling — Fact & dimension design for analysis
-✔ Analytics — SQL insights on sales, customers & performance metrics
+---
 
-The goal: convert raw operational data into trusted data products that support analytics.
+## 📌 Key Features
 
-🎯 Skills Demonstrated
+- Modern Medallion architecture
+- ETL pipeline automation using SQL scripts
+- Fact & Dimension table design
+- Data quality checks included
+- Actionable insights from analytical queries
 
-SQL Development
+🎯 **Objective:** Convert raw business data into trusted insights for decision-making.
 
-Data Modeling (Star Schema)
+---
 
-ETL Pipeline Building
+## 🎯 Skills Demonstrated
 
-Data Quality & Standardization
+- SQL Development
+- ETL Pipeline Development
+- Data Modeling (Star Schema)
+- Data Cleaning & Standardization
+- Warehousing Concepts
+- Analytical Reporting
 
-Data Warehouse Design
+This project is part of my learning journey into Data Engineering 🚀
 
-Business Analytics
+---
 
-This project is part of my learning path toward becoming a Data Engineer.
+## 🧰 Tools & Technologies
 
-🧰 Tools & Technologies
-Category	Tools
-Database	SQL Server Express
-ETL	SQL Scripts, SSMS
-Documentation & Design	Draw.io, Markdown, Diagramming Tools
-Version Control	Git + GitHub
+| Category | Tools |
+|---------|------|
+| Database | SQL Server Express |
+| ETL / Development | SQL Scripts, SSMS |
+| Documentation | Draw.io, Markdown |
+| Version Control | Git & GitHub |
 
-All components used are free and easy to set up locally.
+---
 
-🚀 Project Requirements (What was built)
-📌 Data Engineering — Modern Data Warehouse
+## 🚀 Solution Breakdown
 
-Source Systems: CSV datasets (ERP & CRM)
+### 🔹 Data Engineering — Warehouse Build
+- Integrated ERP & CRM datasets (CSV)
+- Standardized business entities & IDs
+- Created curated data layers
+- Documented schema & naming conventions
 
-Clean & integrate both into a unified data model
+### 🔹 Data Analytics — Business Insights
+Generated SQL-based insights for:
+- Customer behavior trends
+- Product category performance
+- Revenue & sales patterns
 
-Ensure consistent business keys & lookup references
+---
 
-Focus on latest snapshot data (non-historical)
+## 📝 License
 
-Provide strong documentation for users & analysts
+This project is open-source under the **MIT License**.  
+You are free to explore, learn from, and contribute with proper attribution.
 
-📊 Analytics — Business Insights
+---
 
-Created SQL-based analytics for:
+## 🙋‍♂️ About Me
 
-Customer segmentation & behaviour
+Hi! I’m **Rajalingam** — an aspiring Data Engineer building real-world data projects to improve my skills.  
+Always learning. Always growing. 🚀
 
-Product category performance
+📬 **Connect with me**
+- LinkedIn: https://www.linkedin.com/in/rajalingamt/
 
-Revenue & order trends
-
-Insights highlight metrics that support data-driven decision making.
-
-📂 Repository Structure
-data-warehouse-project/
-│
-├── datasets/        # Raw CSV data files
-│
-├── scripts/         # ETL SQL
-│   ├── bronze/
-│   ├── silver/
-│   ├── gold/
-│
-├── tests/           # Data validation / quality checks
-├── README.md        # You are here!
-└── .gitignore       # Ignore unnecessary files
-
-📝 License
-
-This project is open-source under the MIT License.
-You are welcome to explore, learn, and adapt it with proper credit.
-
-🙋‍♂️ About Me
-
-I’m Rajalingam, an aspiring Data Engineer 💡
-I enjoy building data pipelines, solving real business challenges, and constantly learning new tools.
-
-📬 Connect with me:
-
-LinkedIn: www.linkedin.com/in/rajalingamt
+---
